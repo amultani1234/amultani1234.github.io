@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-19T22:50:32-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">amultani1234.github.io</title><subtitle>Hey there! Welcome to my site. Here you will find descriptions of various side-projects, and some other content which is mostly for personal learning.</subtitle><entry><title type="html">Harnessing NOAA Data for Advanced Hail Detection: A Technical Exploration</title><link href="http://localhost:4000/2023/11/18/weather-data-processing-python.html" rel="alternate" type="text/html" title="Harnessing NOAA Data for Advanced Hail Detection: A Technical Exploration" /><published>2023-11-18T00:00:00-05:00</published><updated>2023-11-18T00:00:00-05:00</updated><id>http://localhost:4000/2023/11/18/weather-data-processing-python</id><content type="html" xml:base="http://localhost:4000/2023/11/18/weather-data-processing-python.html"><![CDATA[<h1 id="harnessing-noaa-data-for-advanced-hail-detection-a-technical-exploration">Harnessing NOAA Data for Advanced Hail Detection: A Technical Exploration</h1>
+
+<p>In meteorological data analysis, accurately detecting and analyzing hail events is crucial. Leveraging data from NOAA (National Oceanic and Atmospheric Administration) offers invaluable information. I implemented several hail detection algorithms: HDR, HSDA, HSDA_MF, and MEHS. Explore these in my <a href="https://github.com/amultani1234/hailtrace/tree/main/processing/algorithms">GitHub repository</a>.</p>
+
+<h2 id="streaming-data-from-noaa">Streaming Data from NOAA</h2>
+
+<p>NOAA provides comprehensive datasets crucial for meteorological research. Streaming this data involves accessing their APIs, forming the backbone of our hail detection work.</p>
+
+<h2 id="implementing-hail-detection-algorithms">Implementing Hail Detection Algorithms</h2>
+
+<h3 id="hdr-hail-detection-ratio">HDR (Hail Detection Ratio)</h3>
+<p>This algorithm identifies hail by analyzing radar reflectivity patterns in NOAA’s radar data.</p>
+
+<h3 id="hsda-hail-size-discrimination-algorithm">HSDA (Hail Size Discrimination Algorithm)</h3>
+<p>HSDA detects hail and estimates its size, essential for assessing hailstorm impacts.</p>
+
+<h3 id="hsda_mf-hail-size-discrimination-algorithm---multi-factor">HSDA_MF (Hail Size Discrimination Algorithm - Multi-Factor)</h3>
+<p>An extension of HSDA, it incorporates additional variables like wind and temperature, enhancing size estimation accuracy.</p>
+
+<h3 id="mehs-maximum-expected-hail-size">MEHS (Maximum Expected Hail Size)</h3>
+<p>MEHS predicts the maximum hail size, crucial for timely warnings and risk mitigation.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>By applying these algorithms to NOAA’s data, we accurately detect hail events and understand their potential impact. For more details and code implementation, visit my <a href="https://github.com/amultani1234/hailtrace/tree/main/processing/algorithms">GitHub repository</a>.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Harnessing NOAA Data for Advanced Hail Detection: A Technical Exploration]]></summary></entry></feed>
